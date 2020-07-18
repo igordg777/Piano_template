@@ -1,0 +1,193 @@
+.w {
+    display: flex;
+    position: relative;
+    height: 400px;
+    flex-direction: row;
+}
+
+.wk{
+    width: 7.14%;
+    border: 1px solid black;
+    height: 370px;
+
+}
+
+.b{
+    /*top: 0px;*/
+    display: flex;
+    position: absolute;
+    height: 300px;
+    border: 1px solid black;
+    flex-direction: row;
+}
+
+.bk {
+    width: 5%;
+    height: 250px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+#dob{
+    position:absolute;
+    top:0px;
+    left: 4.5%;
+}
+
+#reb{
+    position:absolute;
+    top:0px;
+    left: 11.5%;
+}
+
+#fab{
+    position:absolute;
+    top:0px;
+    left: 25.7%;
+}
+
+#gb{
+    position:absolute;
+    top:0px;
+    left: 33%;
+}
+
+#ab{
+    position:absolute;
+    top:0px;
+    left: 40%;
+}
+
+
+#dob2{
+    position:absolute;
+    top:0px;
+    left: 54.3%;
+}
+
+#reb2{
+    position:absolute;
+    top:0px;
+    left: 61.5%;
+}
+
+#fab2{
+    position:absolute;
+    top:0px;
+    left: 76%;
+}
+
+#gb2{
+    position:absolute;
+    top:0px;
+    left: 83%;
+}
+
+#ab2{
+    position:absolute;
+    top:0px;
+    left: 90.4%;
+}
+
+.nadp{
+    display: flex;
+   flex-direction: row;
+}
+.np {
+    width: 5%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    /*border-width: dotted;*/
+    border-style: dotted;
+    background-color: white;
+    text-align: center;
+}
+
+#classicMusic{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;  
+    width: 100px;
+    height: 100px;
+    border: 25px solid grey;
+    border-radius: 100%;
+    /* border-right: 25px solid #C8EABB; */
+    background-color: #E9F7E4;
+}
+
+#sentLink{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;  
+    width: 100px;
+    height: 100px;
+    border: 25px solid grey;
+    border-radius: 100%;
+    /* border-right: 25px solid #C8EABB; */
+    background-color: #E9F7E4;
+}
+
+#boomBox{
+    position: absolute;
+    bottom: 210px;
+    right: 30px;  
+    width: 100px;
+    height: 100px;
+    border: 25px solid grey;
+    border-radius: 100%;
+    /* border-right: 25px solid #C8EABB; */
+    background-color: #dadada;
+}
+
+#owner{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;  
+}
+
+
+#formSentLink{
+    position: absolute;
+    bottom: 10px;
+    left: 170px;  
+}
+
+#mydiv{
+    position: absolute;
+    bottom: 30px;
+    left: 15%;  
+    width: 70%;
+}
+
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+   }
+
+
+.box {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.space {
+    display: inline-block;
+    width: 100%;
+}
+.box-pointer {
+    position: absolute;
+}
+.box-pointer-hidden {
+    display: none;
+}
+.box-pointer2 {
+    left: 0;
+    right: 0;
+    transition: 0ms cubic-bezier(0.1, 0.57, 0.1, 1);
+}
+.cursor {
+    cursor: url(data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7), auto;;
+}
+
